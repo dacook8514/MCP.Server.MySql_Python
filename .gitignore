@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# IDEs and build systems
+.idea/
+.vscode/
+*.swp
+*.bak
+*.orig
+*~
+*.log
+*.tmp
+.DS_Store
+
+# OS generated files
+.Trash/
+Thumbs.db
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
