@@ -1,4 +1,7 @@
+"""Simple liveness JSON-RPC handler."""
+
 from rpc.json_rpc_interfaces import IJsonRpcHandler, JsonRpcRequest, JsonRpcResponse
+
 
 class PingHandler(IJsonRpcHandler):
     @property
